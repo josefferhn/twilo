@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+	--color-general:#03363d;
+	--color-verde:#68b06e;
+	--fondo-verde:#10393b;
+	--color-hero:#618a8d;
+	--color-naranja:#ff8945;
+	--hover-naranja:#f4722c;
+	--hover-verde:#00272b;
+	--color-titulos:#0b363d;
+	--fondo-cards:#f6f9f9;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--color-general);
+}
+header{
+	background-color: var(--fondo-verde);
+	padding: 25px 0;
+}
+header img{
+	width: 120px;
+}
+a{
+	text-decoration: none;
+}
+
+
+#hero{
+	background-image: url("../img/bg-img-01.png");
+	background-position: top center;
+	background-size: cover;
+	background-color: var(--fondo-verde);
+	padding: 5% 0;
+}
+
+#hero h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+}
+#hero h4{
+	color: var(--color-hero);
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.color-naranja{
+	color: var(--color-naranja);
+}
+.btn-naranja{
+	background-color: var(--color-naranja);
+	color: #fff;
+	padding: 14px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.btn-naranja:hover{
+	background-color: var(--hover-naranja);
+	color: #fff;
+}
+
+.btn-verde{
+	background-color: var(--fondo-verde);
+	color: #fff;
+	padding: 14px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.btn-verde:hover{
+	background-color: var(--hover-verde);
+	color: #fff;
+}
+
+.section{
+	padding: 60px 0;
+}
+.titulo{
+	color:  var(--color-titulos);
+	font-weight: 800;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.titulo span{
+	color: var(--color-naranja);
+}
+.subtitulo{
+	color: var(--color-verde);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.link-naranja{
+	color: var(--color-naranja);
+	font-weight: 600;
+	padding-bottom: 5px;
+	border-bottom: 1px solid var(--color-naranja);
+}
+.link-naranja:hover{
+	color: var(--color-naranja);
+	opacity: 0.8;
+}
+
+
+#features .card{
+	background-color: var(--fondo-cards);
+	padding: 20px;
+	border: 0;
+	border-bottom: 2px solid #fac56b;
+	border-radius: 0;
+}
+#features .card h3{
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.cita{
+	border-left: 2px solid var(--color-general);
+	padding-left: 40px;
+	margin-top: 40px;
+}
+.cita h5{
+	font-size: 16px;
+	font-weight: 800;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
